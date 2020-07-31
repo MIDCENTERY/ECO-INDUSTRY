@@ -1,0 +1,43 @@
+
+{
+	"type": "groundUnit",
+	"name": "KURABASA",
+	"description": "-",
+	"maxVelocity": 2,
+	"speed": 0.3,
+	"drag": 0.1,
+	"mass": 20,
+	"hitsize": 25,
+	"rotatespeed": 0.1,
+	"health": 12000, 
+	"range": 10,
+"rotateWeapon": false,
+	
+	"weapon": {
+		"name": "aries-horn",
+		"length": 0.1,
+		"recoil": 1,
+		"width": 0.1, 
+		"range":5,
+		"reload": 1,
+		"alternate": false,
+		"shootSound": "shootBig",
+		"bullet":{
+		     "bulletWidth": 5,
+		     "knockback": 5,
+		     "bulletHeight": 5,
+             "type": "BasicBulletType",
+             "lifetime": 15,
+             "damage": 60,
+             "speed": 3,
+             "shootEffect": "shellEjectBig",
+             "splashDamageRadius": 40,
+             "splashDamage": 10,
+             "hitEffect": "hitMeltdown",
+             "despawnEffect": "hitMeltdown", 
+         
+                
+		}
+	
+	}
+}
